@@ -44,7 +44,7 @@ cd massa/massa-node
 ./massa-node -p 1
 ```
 Jika Sudah Jalan dan tidak terjadi Error 
-`Tekan CTRL + d`
+`Tekan CTRL+A+D`
 
 ### Buat Sesi Kedua
 ```bash
@@ -83,7 +83,7 @@ Contoh: `buy_rolls A16Uo1DPkTKWd3isuzHFK92z4MKYngY8yo3w7K 1 0`
 node_testnet_rewards_program_ownership_proof
 ```
 Contoh : `node_testnet_rewards_program_ownership_proof A16Uo1DPkTKWd3isuzHFK92z4MKYngY8yo3w7K 444109910003941376` <id discord kemudian enter
- * Jika Sudah Tekan CTRL + d
+ * Jika Sudah Tekan CTRL+A+D
                                                                                                                       
                                                                                                                       
                                                                                                                       
