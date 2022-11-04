@@ -6,7 +6,7 @@
  * Telegram Indonesia : https://t.me/massa_indonesia
  * Website : https://massa.net/
  
-## OPEN PORT
+## Open Port
 ```bash
 ufw allow ssh
 ufw allow 31244
@@ -16,6 +16,8 @@ ufw limit 31244
 ufw limit 31245
 ufw enable
 ```
+#### Check Port
+``https://www.yougetsignal.com/tools/open-ports/``
 
 ### Update Ubuntu
 ```bash
