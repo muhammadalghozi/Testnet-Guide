@@ -5,6 +5,17 @@
  * Telegram Global : https://t.me/massanetwork
  * Telegram Indonesia : https://t.me/massa_indonesia
  * Website : https://massa.net/
+ 
+## OPEN PORT
+```bash
+ufw allow ssh
+ufw allow 31244
+ufw allow 31245
+ufw limit ssh
+ufw limit 31244
+ufw limit 31245
+ufw enable
+```
 
 ### Update Ubuntu
 ```bash
