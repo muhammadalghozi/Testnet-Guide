@@ -16,8 +16,7 @@ apt install docker.io
 git clone https://github.com/exorde-labs/ExordeModuleCLI.git
 ```
 ```bash
-cd ExordeModuleCLI
-docker build -t exorde-cli .
+cd ExordeModuleCLI && rm -rf localConfig.json && wget https://raw.githubusercontent.com/tohkoin/TestnetProtocol/main/localConfig.json && docker build -t exorde-cli .
 ```
 #### Run Node
 ```bash
