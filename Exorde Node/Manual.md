@@ -40,7 +40,12 @@ docker logs --follow Exorde
 ```bash
 docker restart Exorde
 ```
-### Stop Docker
+#### Stop Docker
 ```bash
 docker stop Exorde
+```
+### Delete Your Node
+```bash
+sudo  docker stop Exorde &&  sudo  docker  rm Exorde
+sudo  rm -rf ExordeModuleCLI
 ```
