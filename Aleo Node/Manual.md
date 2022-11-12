@@ -32,6 +32,7 @@ git clone https://github.com/AleoHQ/snarkOS.git --depth 1
 ```bash
 cd snarkOS
 ./build_ubuntu.sh
+```
 
 #### Cargo Install Path
 ```bash
