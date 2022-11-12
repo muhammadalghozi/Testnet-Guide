@@ -1,5 +1,7 @@
 # ALEO TESTNET NODE MANUAL
- 
+
+ * Discord : https://discord.gg/8z7HKu86D2
+ * Explorer : Soon
 #### Update
 ```bash
 apt update && apt upgrade -y
