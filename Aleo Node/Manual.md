@@ -15,8 +15,8 @@ apt install tmux -y
 #### Open Port
 ```bash
 ufw allow ssh
-ufw allow 4133
-ufw allow 3033
+ufw allow 4133/tcp
+ufw allow 3033/tcp
 ufw enable
 ```
 
