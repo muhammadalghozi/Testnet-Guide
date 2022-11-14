@@ -1,7 +1,9 @@
 # ALEO TESTNET NODE MANUAL
 
- * Discord : https://discord.gg/8z7HKu86D2
- * Explorer : Soon
+ * Discord : [Click Here](https://discord.gg/8z7HKu86D2)
+ * Github Aleo : [Click Here](https://github.com/AleoHQ/snarkOS)
+ * Doc Official Aleo : [Click Here](https://developer.aleo.org/testnet/getting_started/installation/)
+ * Check Leader Board : [Click Here](https://www.aleo123.io/leaderBoard)
 #### Update
 ```bash
 apt update && apt upgrade -y
