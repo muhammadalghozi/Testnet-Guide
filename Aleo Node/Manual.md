@@ -4,6 +4,23 @@
  * Github Aleo : [Click Here](https://github.com/AleoHQ/snarkOS)
  * Doc Official Aleo : [Click Here](https://developer.aleo.org/testnet/getting_started/installation/)
  * Check Leader Board : [Click Here](https://www.aleo123.io/leaderBoard)
+
+## Hardware Requirements
+
+| Minimum | Specifications |
+|---------|----------------|
+|CPU|16 Cores|
+|RAM|16 GB DDR4 RAM|
+|Storage|128 GB HDD|
+|Networking|10Mbit/s port|
+
+| Recommended | Specifications |
+|----------|-------------------|
+|CPU|32 Cores|
+|RAM|32 GB DDR4 RAM|
+|Storage|2 x 1 TB NVMe SSD|
+|Networking|1 Gbit/s port|
+
 #### Update
 ```bash
 apt update && apt upgrade -y
