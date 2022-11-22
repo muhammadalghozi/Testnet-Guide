@@ -1,7 +1,7 @@
 # EXORDE TESTNET MANUAL
 
- * Explorer : https://explorer.exorde.network/
- * Discord  : https://discord.gg/SV22kgMCnr
+ * Explorer : [Click Here](https://explorer.exorde.network/)
+ * Discord  : [Click Here](https://discord.gg/SV22kgMCnr)
 
 #### Update First
 ```bash
