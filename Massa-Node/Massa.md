@@ -1,10 +1,10 @@
 # MASSA TESTNET EPISODE 16
 
- * Explorer Massa : https://test.massa.net/v1/#explorer
- * Discord Massa : https://discord.gg/massa
- * Telegram Global : https://t.me/massanetwork
- * Telegram Indonesia : https://t.me/massa_indonesia
- * Website : https://massa.net/
+ * Explorer Massa : [CLick Here](https://test.massa.net/v1/#explorer)
+ * Discord Massa : [CLick Here](https://discord.gg/massa)
+ * Telegram Global : [CLick Here](https://t.me/massanetwork)
+ * Telegram Indonesia : [CLick Here](https://t.me/massa_indonesia)
+ * Website : [CLick Here](https://massa.net/)
  
 ## Open Port
 ```bash
