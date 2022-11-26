@@ -30,6 +30,7 @@ sudo -i
 ```bash
 ufw allow ssh
 ufw allow 9000:9005/udp
+ufw enable
 ```
 #### Update Dependencies
 ```bash
