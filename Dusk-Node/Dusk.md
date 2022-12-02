@@ -40,10 +40,7 @@ apt update && apt upgrade -y
 
 #### Download libssl.so.1.1
 ```bash
-wget http://nz2.archive.ubuntu.com/ubuntu/pool/main/o/openssl/libssl1.1_1.1.1l-1ubuntu1.6_amd64.deb
-```
-```bash
-sudo dpkg -i libssl1.1_1.1.1l-1ubuntu1.6_amd64.deb
+sudo apt-get install libssl1.1
 ```
 
 #### Download & Setup "rusk-wallet"
