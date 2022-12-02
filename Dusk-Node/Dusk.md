@@ -30,6 +30,7 @@ sudo -i
 ```bash
 ufw allow ssh
 ufw allow 9000:9005/udp
+ufw allow 8585
 ufw enable
 ```
 #### Update Dependencies
@@ -47,19 +48,19 @@ sudo dpkg -i libssl1.1_1.1.1l-1ubuntu1.6_amd64.deb
 
 #### Download & Setup "rusk-wallet"
 ```bash
-wget https://github.com/dusk-network/wallet-cli/releases/download/v0.12.0/ruskwallet0.12.0-linux-x64.tar.gz
+wget https://github.com/dusk-network/wallet-cli/releases/download/v0.13.0/ruskwallet0.13.0-linux-x64-libssl3.tar.gz
 ```
 
 #### Extract File
 ```bash
-tar -xvf ruskwallet0.12.0-linux-x64.tar.gz
-rm ruskwallet0.12.0-linux-x64.tar.gz
-cd rusk-wallet0.12.0-linux-x64
+tar -xvf ruskwallet0.13.0-linux-x64-libssl3.tar.gz
+rm ruskwallet0.13.0-linux-x64-libssl3.tar.gz
+cd ruskwallet0.13.0-linux-x64-libssl3.tar.gz
 ```
 
 #### Create Wallet
 ```bash
-./rusk-wallet
+./rusk-wallet --state http://127.0.0.1:8585
 ```
 
 * Select `Create a new wallet`
@@ -107,8 +108,8 @@ service dusk start
 #### Stake Dusk
 ```bash
 cd $HOME
-cd rusk-wallet0.12.0-linux-x64
-./rusk-wallet
+cd rusk-wallet0.13.0-linux-x64-libssl3
+./rusk-wallet --state http://127.0.0.1:8585
 ```
 
 #### Then follow the step below
