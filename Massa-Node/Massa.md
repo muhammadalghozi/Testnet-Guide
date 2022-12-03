@@ -11,9 +11,6 @@
 ufw allow ssh
 ufw allow 31244
 ufw allow 31245
-ufw limit ssh
-ufw limit 31244
-ufw limit 31245
 ufw enable
 ```
 #### Check Port
@@ -33,11 +30,11 @@ screen -S node
 ```
 ### Download File
 ```bash
-wget https://github.com/massalabs/massa/releases/download/TEST.16.0/massa_TEST.16.0_release_linux.tar.gz
+wget https://github.com/massalabs/massa/releases/download/TEST.17.1/massa_TEST.17.1_release_linux.tar.gz
 ```
 ### Ekstrak File
 ```bash
-tar -xvf massa_TEST.16.0_release_linux.tar.gz
+tar -xvf massa_TEST.17.1_release_linux.tar.gz
 ```
 ### Buat Routable
 ```bash
@@ -57,7 +54,7 @@ cd massa/massa-node
 ./massa-node -p 1
 ```
 Jika Sudah Jalan dan tidak terjadi Error 
-`Tekan CTRL+A+D`
+`Tekan CTRL+A D`
 
 ### Buat Sesi Kedua
 ```bash
