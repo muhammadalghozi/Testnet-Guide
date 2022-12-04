@@ -1,4 +1,4 @@
-# MASSA TESTNET EPISODE 16
+# MASSA TESTNET EPISODE 17
 
  * Explorer Massa : [CLick Here](https://test.massa.net/v1/#explorer)
  * Discord Massa : [CLick Here](https://discord.gg/massa)
@@ -66,16 +66,26 @@ cd massa/massa-client
 ./massa-client -p 1
 ```
 
- * Untuk pengguna baru silahkan generate wallet terlebih dahulu dengan command
-`wallet_generate_secret_key`
- * Kemudian Cek Wallet Addres untuk mengambil faucet di discord
-`wallet_info`
+#### Untuk pengguna baru silahkan generate wallet terlebih dahulu dengan command
+```bash
+wallet_generate_secret_key
+```
+#### Kemudian Cek Wallet Addres untuk mengambil faucet di discord
+```bash
+wallet_info
+```
 
- * Untuk Pengguna Lama Silahkan langsung recover wallet lama dengan command
-`wallet_add_secret_keys` masukkan secret keys yg telah disimpan
- * Kemudian Cek Wallet Addres untuk mengambil faucet di discord
-`wallet_info`
-Jika Sudah Mendapatkan Faucet Ikuti Langkah berikutnya
+#### Untuk Pengguna Lama Silahkan langsung recover wallet lama dengan command
+```bash
+wallet_add_secret_keys
+```
+`masukkan secret keys yg telah disimpan`
+#### Kemudian Cek Wallet Addres untuk mengambil faucet di discord
+```bash
+wallet_info
+```
+`Jika Sudah Mendapatkan Faucet Ikuti Langkah berikutnya`
+
 #### Add Staking Keys
 ```bash
 node_add_staking_secret_keys
