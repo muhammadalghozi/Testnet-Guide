@@ -46,7 +46,8 @@ wget --no-check-certificate --no-cache --no-cookies -q -O task4.sh https://raw.g
    * Type ``Y`` when asked, enter
    * Select ``Paste an authentication token`` , enter
    * Paste the token that you generated in the first step, enter
-   ![image](https://user-images.githubusercontent.com/116246591/211124524-3da7b983-d253-437f-bd7d-b133e50d99b7.png)
+   ![image](https://user-images.githubusercontent.com/116246591/211124549-47065165-2847-48bf-9096-76710a235c66.png)
+
 
    
 5. Finished and wait for the review from the team for task 4
