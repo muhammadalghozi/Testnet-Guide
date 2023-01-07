@@ -9,7 +9,7 @@
 ### Create a Github Account First
 1. Register [Github](https://github.com/) Account
 
-3. Creat Github Token
+3. Create Github Token
   * Click [this link](https://github.com/settings/tokens) to generate github token
   * Select the button ``Generate new token``
   * Select ``generate new token (classic)`` and enter the name of the token, for example "key-inery"
@@ -46,5 +46,7 @@ wget --no-check-certificate --no-cache --no-cookies -q -O task4.sh https://raw.g
    * Type ``Y`` when asked, enter
    * Select ``Paste an authentication token`` , enter
    * Paste the token that you generated in the first step, enter
+   ![image](https://user-images.githubusercontent.com/116246591/211124524-3da7b983-d253-437f-bd7d-b133e50d99b7.png)
+
    
 5. Finished and wait for the review from the team for task 4
