@@ -1,4 +1,4 @@
-# MASSA TESTNET EPISODE 17
+# MASSA TESTNET EPISODE 18
 
  * Explorer Massa : [CLick Here](https://test.massa.net/v1/#explorer)
  * Discord Massa : [CLick Here](https://discord.gg/massa)
@@ -30,11 +30,11 @@ screen -S node
 ```
 ### Download File
 ```bash
-wget https://github.com/massalabs/massa/releases/download/TEST.17.1/massa_TEST.17.1_release_linux.tar.gz
+wget https://github.com/massalabs/massa/releases/download/TEST.18.0/massa_TEST.18.0_release_linux.tar.gz
 ```
 ### Ekstrak File
 ```bash
-tar -xvf massa_TEST.17.1_release_linux.tar.gz
+tar -xvf massa_TEST.18.0_release_linux.tar.gz
 ```
 ### Buat Routable
 ```bash
